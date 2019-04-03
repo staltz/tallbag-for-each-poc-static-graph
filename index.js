@@ -80,7 +80,7 @@ class Visualizer extends React.Component {
 
 const forEach = operation => source => {
   actualForEach(operation, metadata => {
-    ReactDOM.render(<Visualizer metadata={metadata} />, container);
+    ReactDOM.render(React.createElement(Visualizer, {metadata}), container);
   })(source);
 };
 
