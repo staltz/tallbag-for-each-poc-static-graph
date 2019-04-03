@@ -74,7 +74,7 @@ class Visualizer extends React.Component {
       height: '500px',
     };
 
-    return <Graph graph={graph} options={options} />;
+    return React.createElement(Graph, {graph, options});
   }
 }
 
