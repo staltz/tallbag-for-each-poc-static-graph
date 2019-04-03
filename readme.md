@@ -6,6 +6,8 @@ Use this sink as a replacement for `forEach`, and it will automatically dump a g
 
 ## Example use
 
+[Try it out in a CodeSandbox](https://codesandbox.io/embed/10zvmlxjo7)
+
 ```js
 const forEach = require('tallbag-for-each-poc-static-graph');
 
