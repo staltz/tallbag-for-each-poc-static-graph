@@ -1,0 +1,21 @@
+{
+  "name": "tallbag-for-each-poc-static-graph",
+  "version": "1.0.0",
+  "description": "Tallbag sink that consume both pullable and listenable sources",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/staltz/tallbag-for-each-poc-static-graph.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "build": ":"
+  },
+  "author": "staltz.com",
+  "license": "MIT",
+  "dependencies": {
+    "tallbag-for-each": "~1.0.0",
+    "react": "16.8.3",
+    "react-dom": "16.8.3",
+    "react-graph-vis": "1.0.2"
+  }
+}
